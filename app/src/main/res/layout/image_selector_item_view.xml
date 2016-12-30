@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+	<ImageView
+	    android:id="@+id/image_item"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:src="@mipmap/picture_loading"
+	    android:scaleType="centerCrop"
+		/>
+	<ImageView 
+        android:id="@+id/iv_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/color_mask_selector"
+        />
+
+    <ImageView
+        android:id="@+id/checkmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/image_item"
+        android:layout_alignRight="@id/image_item"
+        android:src="@mipmap/image_selector_unchecked"
+        />
+    
+    <ImageView
+	    android:id="@+id/camera"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:src="@drawable/image_selector_camera"
+	    android:scaleType="centerCrop"
+	    android:visibility="gone"
+		/>
+</RelativeLayout>

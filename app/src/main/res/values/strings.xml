@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">VR视频播放器</string>
+    <string name="vr_video_player_intro">VR视频播放器，开启你的VR之旅！</string>
+    <string name="select_vr_video">选择本地VR视频</string>
+    <string name="empty_video_error">你还没有选择本地VR视频!</string>
+
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="complete">完成</string>
+    <string name="back">返回</string>
+    <string name="reselect">重选</string>
+    <string name="ok">好的</string>
+
+    <string name="album">相册</string>
+    <string name="msg_amount_limit">不能再加了，最多6张哦</string>
+    <string name="picture_deleted">图片已删除</string>
+    <string name="msg_no_camera">没有系统相机</string>
+    <string name="external_story_setting">\u3000\u3000需要您开启存储空间权限，以正常使用阅读功能。请在“设置”>“应用管理”>“街拍”>“权限”中设置。</string>
+    <string name="album_permission_setting">\u3000\u3000需要您开启访问相册权限，以正常使用。请在“设置”>“应用管理”>“街拍”>“权限”中设置。</string>
+    <string name="camera_permission_setting">\u3000\u3000需要您开启相机拍照权限，以正常使用。请在“设置”>“应用管理”>“街拍”>“权限”中设置。</string>
+    <string name="video_permission_setting">\u3000\u3000需要您开启存储空间权限，以缓存多媒体文件，再次播放时为您节约流量。请在“设置”>“应用管理”>“街拍”>“权限”中设置。</string>
+    <string name="goto_setting">去设置</string>
+</resources>
